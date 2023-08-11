@@ -1,11 +1,19 @@
 
 # Project Name
-PreTraining Pipeline TinyBert. Use the same environment from the base directory.
+PreTraining Pipeline for smaller Bert
 ## Table of Contents
+- [Introduction](#introduction)
+- [Installation](#installation)
 - [Pretrain TinyBERT](#introduction)
 - [Train Tokenizer](#installation)
 
-
+## Introduction
+This repo provides a methodology for pretraining a BERT with Masked Language Modeling Objective. 
+## Installation
+Download Anaconda and create a conda environment(python 3.10.x) with the requirement.txt file.
+```shell
+    pip install -r requirements.txt --no-cache
+```
 ## PretrainTinyBERT
 1. Change the config file at tiny_bert_config.py to your need
 ```python 
